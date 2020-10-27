@@ -17,7 +17,7 @@ See that `python.analysis.extraPaths` points to the `lib` folder
 
 Use:
 
-.. code-block::console
+.. code-block:: console
     git clone https://github.com/wesleybl/symbolic.package
     cd symbolic.package
     code .
