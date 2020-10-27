@@ -15,7 +15,7 @@ See that `python.analysis.extraPaths` points to the `lib` folder
 `lib/my` is a symbolic link to `.lib/my`
 
 
-Use:
+Use::
 
     git clone https://github.com/wesleybl/symbolic.package
     cd symbolic.package
@@ -24,11 +24,15 @@ Use:
 
 Open the `src/symbolic/package/__init__.py` file and type:
 
+.. code-block:: python
+
     import my
 
 The autocomplete will not work, because `lib/my` is a symbolic link.
 
 If we type:
+
+.. code-block:: python
 
     import real
 
